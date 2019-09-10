@@ -5,7 +5,7 @@ def reverse_each_word(sentance)
   
   sentance.split(" ").each{|word| reversed_sentance << "#{word.reverse} " }
   
-  reversed_sentance
+  reversed_sentance.join(" ")
 end
 
 
