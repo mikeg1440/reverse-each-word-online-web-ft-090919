@@ -18,6 +18,6 @@ def reverse_each_word(sentance)
     
   end
   
-  reversed
+  reversed.join(" ")
   binding.pry
 end
