@@ -19,4 +19,5 @@ def reverse_each_word(sentance)
   end
   
   sentance
+  binding.pry
 end
