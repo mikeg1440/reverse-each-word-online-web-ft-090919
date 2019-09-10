@@ -7,3 +7,6 @@ def reverse_each_word(sentance)
   
   reversed_sentance
 end
+
+
+reversed_sentance(""Hello there, and how are you?"")
