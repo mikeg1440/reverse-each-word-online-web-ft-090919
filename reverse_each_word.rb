@@ -12,11 +12,7 @@ require "pry"
 
 def reverse_each_word(sentance)
   
-  reversed = sentance.split.collect do |word| 
-    
-    word.reverse
-    
-  end
+  reversed = sentance.split.collect {|word| word.reverse }
   
   reversed.join(" ")
   # binding.pry
