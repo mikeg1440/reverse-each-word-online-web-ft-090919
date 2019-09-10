@@ -3,9 +3,11 @@ def reverse_each_word(sentance)
   
   reversed_sentance = []
   
-  sentance.split(" ").each{|word| reversed_sentance << "#{word.reverse} " }
+  sentance.split(" ").each{|word| reversed_sentance << word.reverse }
   
-  reversed_sentance.join
+  
+  
+  reversed_sentance.join(" ")
 end
 
 
